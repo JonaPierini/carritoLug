@@ -44,6 +44,6 @@ async function connectToDb() {
     await mongoose.connect(process.env.DB_CONNECTION_STRING);
   } else {
     // en caso que la var no se haya cargado correctamente, loguea un mensaje en la consola.
-    console.log("Connection string is missing");
+    await console.log("Connection string is missing");
   }
 }
