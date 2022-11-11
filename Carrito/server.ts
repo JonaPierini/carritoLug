@@ -21,7 +21,7 @@ app.get('*', function(req, res){
 });
 
 app.get('/', function(req, res){
-  res.status(200).send('Pagina Principal => /api/cart/getCart');
+  res.status(200).send('Pagina Principal => route exam /api/cart/getCart');
 });
 
 
